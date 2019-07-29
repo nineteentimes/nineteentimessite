@@ -20,5 +20,8 @@ h2 {
 #text {
   position:absolute;
   float:left;
-  z-index:2;
+}
+#social {
+  margin:95px;
+  float:right;
 }
