@@ -6,6 +6,7 @@ body {
 	background-image:url("lake.jpg");
   background-size:100%;
   background-color:black;
+  background-repeat:no-repeat;
   color:white;
   font-family:retro;
 }
@@ -19,9 +20,24 @@ h2 {
 }
 #text {
   position:absolute;
+  width:80%;
   float:left;
 }
 #social {
   margin:95px;
   float:right;
+}
+/* desktop only */
+@media (min-width:768px) {
+
+}
+/* mobile only */
+@media all and (max-width:768px) {
+  h2 {
+    font-size:100%;
+  }
+  a > img {
+    width:100px;
+    height:100px;
+  }
 }
