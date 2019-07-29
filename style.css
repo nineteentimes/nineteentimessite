@@ -8,15 +8,16 @@ body {
   background-color:black;
   background-repeat:no-repeat;
   color:white;
-  font-family:retro;
 }
 h1 {
   width:100%;
   font-size:600%;
+  font-family:retro;
 }
 h2 {
   font-size:70%;
   text-transform:uppercase;
+  font-family:retro;
 }
 #text {
   position:absolute;
@@ -27,6 +28,14 @@ h2 {
   margin:95px;
   float:right;
 }
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:70%;
+  position:absolute;
+  bottom:10px;
+  width:99%;
+  text-align:center;
+}
 /* desktop only */
 @media (min-width:768px) {
 
@@ -34,10 +43,10 @@ h2 {
 /* mobile only */
 @media all and (max-width:768px) {
   h2 {
-    font-size:100%;
+    font-size:200%;
   }
   a > img {
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
   }
 }
