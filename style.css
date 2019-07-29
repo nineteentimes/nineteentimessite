@@ -1,0 +1,24 @@
+@font-face {
+  font-family:retro;
+  src:url(retroitalics.ttf);
+}
+body {
+	background-image:url("lake.jpg");
+  background-size:100%;
+  background-color:black;
+  color:white;
+  font-family:retro;
+}
+h1 {
+  width:100%;
+  font-size:600%;
+}
+h2 {
+  font-size:70%;
+  text-transform:uppercase;
+}
+#text {
+  position:absolute;
+  float:left;
+  z-index:2;
+}
