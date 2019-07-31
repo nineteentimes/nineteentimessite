@@ -41,7 +41,7 @@ footer {
 
 }
 /* mobile only */
-@media all and (max-width:1000px) {
+@media all and (max-width:1075px) {
   h2 {
     font-size:140%;
   }
