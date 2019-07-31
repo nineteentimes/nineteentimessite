@@ -40,9 +40,11 @@ footer {
 @media (min-width:768px) {
 
 }
-/* mobile only 
+/* mobile only */
 @media all and (max-width:1000px) {
-
+  h2 {
+    font-size:140%;
+  }
   a > img {
     width:150px;
     height:150px;
@@ -50,4 +52,4 @@ footer {
   footer {
     font-size:180%;
   }
-}*/
+}
