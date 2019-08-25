@@ -50,20 +50,11 @@ footer {
   text-align:center;
 }
 
+/* mobile only */
 @media (pointer: coarse) {
   h1 {
-    color:red;
-  } 
-}
-
-@media (pointer: fine) {
-  h1 {
-    color:green;
+    color:yellow;
   }
-}
-
-/* mobile only */
-@media (hover: none) {
   h2 {
     font-size:140%;
   }
