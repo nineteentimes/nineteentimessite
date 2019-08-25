@@ -54,7 +54,7 @@ footer {
 
 }
 /* mobile only */
-@media all and (max-width:1075px) {
+@media (hover: none) and (pointer: coarse) {
   h2 {
     font-size:140%;
   }
@@ -64,5 +64,8 @@ footer {
   }
   footer {
     font-size:180%;
+  }
+  #content{
+    width:100%;
   }
 }
