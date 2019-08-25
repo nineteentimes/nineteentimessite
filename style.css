@@ -54,7 +54,7 @@ footer {
 
 }
 /* mobile only */
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none) {
   h1 {
     color:red;
   }
