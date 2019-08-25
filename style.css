@@ -11,22 +11,35 @@ body {
 }
 h1 {
   width:100%;
-  font-size:600%;
+  font-size:450%;
   font-family:retro;
 }
 h2 {
+  font-size:150%;
+  text-transform:uppercase;
+  font-family:retro;
+}
+h3 {
   font-size:70%;
   text-transform:uppercase;
   font-family:retro;
 }
-#text {
-  position:absolute;
+#header {
   width:80%;
+  height:25%;
   float:left;
+  margin-bottom:40px;
 }
 #social {
-  margin:95px;
+  margin:60px;
   float:right;
+}
+#content {
+  clear:both;
+  text-align:center;
+}
+#songlink {
+  display:inline-block;
 }
 footer {
   font-family: Arial, Helvetica, sans-serif;
