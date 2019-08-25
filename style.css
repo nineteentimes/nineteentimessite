@@ -53,10 +53,10 @@ footer {
 /* mobile only */
 @media (pointer: coarse) {
   h1 {
-    color:orange;
+    color:blue;
   }
   h2 {
-    font-size:200%;
+    font-size:180%;
   }
   h3 {
     font-size:140%;
@@ -67,10 +67,16 @@ footer {
     margin-left:0;
     margin
   }
+  #header {
+    width:70%;
+  }
+  #content {
+    width:100%;
+  }
+  #songlink {
+    width:100%;
+  }
   footer {
     font-size:180%;
-  }
-  #content{
-    width:100%;
   }
 }
