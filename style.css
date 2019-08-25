@@ -53,14 +53,19 @@ footer {
 /* mobile only */
 @media (pointer: coarse) {
   h1 {
-    color:yellow;
+    color:orange;
   }
   h2 {
+    font-size:200%;
+  }
+  h3 {
     font-size:140%;
   }
   a > img {
     width:85px;
     height:85px;
+    margin-left:0;
+    margin
   }
   footer {
     font-size:180%;
