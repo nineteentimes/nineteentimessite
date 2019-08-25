@@ -49,15 +49,21 @@ footer {
   width:99%;
   text-align:center;
 }
-/* desktop only */
-@media (min-width:768px) {
 
-}
-/* mobile only */
-@media (hover: none) {
+@media (pointer: coarse) {
   h1 {
     color:red;
+  } 
+}
+
+@media (pointer: fine) {
+  h1 {
+    color:green;
   }
+}
+
+/* mobile only */
+@media (hover: none) {
   h2 {
     font-size:140%;
   }
