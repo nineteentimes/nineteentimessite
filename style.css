@@ -55,7 +55,7 @@ footer {
 /* mobile only */
 @media (pointer: coarse) {
   h1 {
-    color:yellow;
+    color:green;
   }
   h2 {
     font-size:170%;
@@ -74,13 +74,11 @@ footer {
   #content {
     width:100%;
   }
-  #content > h2 {
-    margin-bottom:30px;
-  }
   #songlink {
-    width:250px;
+    width:280px;
     height:229px;
     transform:scale(3);
+    margin-top:30px;
   }
   footer {
     font-size:180%;
