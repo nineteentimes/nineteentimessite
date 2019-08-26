@@ -75,7 +75,7 @@ footer {
   #songlink {
     width:300px;
     height:229px;
-    transform:translateY(300px) scale(3);
+    transform:translateY(400px) scale(3);
   }
   footer {
     font-size:180%;
