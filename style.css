@@ -37,6 +37,7 @@ h3 {
 #content {
   clear:both;
   text-align:center;
+  padding-top:10px;
 }
 #songlink {
   display:inline-block;
@@ -56,6 +57,7 @@ footer {
 @media (pointer: coarse) {
   h2 {
     font-size:170%;
+    color:red;
   }
   h3 {
     font-size:140%;
@@ -69,7 +71,7 @@ footer {
     width:70%;
   }
   #content {
-    margin-top:40px;
+    padding-top:40px;
     width:100%;
   }
   #songlink {
