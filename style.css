@@ -57,7 +57,6 @@ footer {
 @media (pointer: coarse) {
   h2 {
     font-size:170%;
-    color:red;
   }
   h3 {
     font-size:140%;
@@ -71,13 +70,13 @@ footer {
     width:70%;
   }
   #content {
-    padding-top:40px;
+    padding-top:60px;
     width:100%;
   }
   #songlink {
     width:300px;
     height:229px;
-    transform:translateY(400px) scale(3);
+    transform:translateY(300px) scale(3);
   }
   footer {
     font-size:180%;
