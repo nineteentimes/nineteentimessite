@@ -39,16 +39,19 @@ h3 {
   text-align:center;
   padding-top:10px;
 }
-#songlink {
+.songlink {
   display:inline-block;
   width:700px;
   height:199px;
 }
+.release {
+  margin-bottom:75px;
+}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size:70%;
-  position:absolute;
-  bottom:10px;
+  /*position:absolute;
+  bottom:10px;*/
   width:99%;
   text-align:center;
 }
@@ -73,12 +76,15 @@ footer {
     padding-top:80px;
     width:100%;
   }
-  #songlink {
+  .songlink {
     width:300px;
     height:229px;
     transform:translateY(300px) scale(3);
   }
+  .release {
+    margin-bottom:650px;
+  }
   footer {
-    font-size:180%;
+    font-size:130%;
   }
 }
