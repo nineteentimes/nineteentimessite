@@ -3,7 +3,7 @@
   src:url(retroitalics.ttf);
 }
 body {
-	background-image:url("lake.jpg");
+  background-image:url("lake.jpg");
   background-size:100%;
   background-color:black;
   background-repeat:no-repeat;
@@ -15,12 +15,15 @@ h1 {
   font-family:retro;
 }
 h2 {
-  font-size:150%;
   text-transform:uppercase;
   font-family:retro;
 }
 h3 {
   font-size:70%;
+  text-transform:uppercase;
+  font-family:retro;
+}
+p {
   text-transform:uppercase;
   font-family:retro;
 }
@@ -47,6 +50,15 @@ h3 {
 .release {
   margin-bottom:75px;
 }
+.message {
+	background-color: #1f1f1f;
+	margin-bottom: 75px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size:70%;
@@ -55,12 +67,15 @@ footer {
   width:99%;
   text-align:center;
 }
+.arial {
+	font-family: Arial;
+}
+a {
+	color: #B3A400;
+}
 
 /* mobile only */
 @media (pointer: coarse) {
-  h2 {
-    font-size:170%;
-  }
   h3 {
     font-size:140%;
   }
@@ -81,8 +96,20 @@ footer {
     height:229px;
     transform:translateY(300px) scale(3);
   }
+  .message {
+	margin-bottom: 70px;
+	width: 93%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 1%
+	padding-right: 1%;
+	font-size:120% !important;
+  }
   .release {
     margin-bottom:650px;
+	font-size:99% !important;
   }
   footer {
     font-size:130%;
