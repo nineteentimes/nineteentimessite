@@ -9,9 +9,13 @@ body {
   background-repeat:no-repeat;
   color:white;
 }
+#page {
+  margin-left:20%;
+  margin-right:20%;
+}
 h1 {
   width:100%;
-  font-size:450%;
+  font-size:350%;
   font-family:retro;
 }
 h2 {
@@ -33,9 +37,24 @@ p {
   float:left;
   margin-bottom:40px;
 }
-#social {
-  margin:60px;
-  float:right;
+#social_panel {
+	clear: both;
+	background-color: #191919;
+	width: 58%;
+	margin-left:19%;
+    margin-right:19%;
+	padding: 2%;
+	margin-bottom: 50px;
+}
+#social_panel::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.social_icon {
+  float: left;
+  margin-right: 32px;
 }
 #content {
   clear:both;
@@ -49,9 +68,10 @@ p {
 }
 .release {
   margin-bottom:75px;
+  font-size:70% !important;
 }
 .message {
-	background-color: #1f1f1f;
+	background-color: #191919;
 	margin-bottom: 75px;
 	width: 50%;
 	margin-left: 25%;
@@ -76,6 +96,10 @@ a {
 
 /* mobile only */
 @media (pointer: coarse) {
+  #page {
+	  margin-left:10px;
+	  margin-right:10px;
+	}
   h3 {
     font-size:140%;
   }
@@ -86,6 +110,11 @@ a {
   }
   #header {
     width:70%;
+  }
+  #social_panel {
+	width: 92%;
+	margin-left:2%;
+    margin-right:2%;
   }
   #content {
     padding-top:80px;
