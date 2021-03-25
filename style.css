@@ -101,7 +101,8 @@ a {
 	  margin-right:10px;
 	}
   h3 {
-    font-size:140%;
+    font-size:130%;
+	line-height:150%;
   }
   a > img {
     width:85px;
@@ -109,13 +110,19 @@ a {
     margin-left:0;
   }
   #header {
-    width:70%;
+    width:60%;
   }
   #social_panel {
 	width: 92%;
 	margin-left:2%;
     margin-right:2%;
   }
+  .social_icon {
+	  margin-right: 45px;
+	}
+	#social_icon_last {
+		margin-right: 0 !important;
+	}
   #content {
     padding-top:80px;
     width:100%;
