@@ -37,16 +37,15 @@ p {
   float:left;
   margin-bottom:40px;
 }
-#social_panel {
+.social_panel {
 	clear: both;
 	background-color: #191919;
-	width: 58%;
+	width: 60%;
 	margin-left:19%;
     margin-right:19%;
-	padding: 2%;
-	margin-bottom: 50px;
+	padding: 1%;
 }
-#social_panel::after { 
+.social_panel::after { 
    content: " ";
    display: block; 
    height: 0; 
@@ -56,10 +55,20 @@ p {
   float: left;
   margin-right: 32px;
 }
+.panel_text {
+	width: 100px;
+  text-transform:uppercase;
+  font-family:retro;
+  float: left;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+}
 #content {
   clear:both;
   text-align:center;
   padding-top:10px;
+   margin-top: 50px;
 }
 .songlink {
   display:inline-block;
@@ -112,7 +121,7 @@ a {
   #header {
     width:60%;
   }
-  #social_panel {
+  .social_panel {
 	width: 92%;
 	margin-left:2%;
     margin-right:2%;
@@ -123,8 +132,14 @@ a {
 	#social_icon_last {
 		margin-right: 0 !important;
 	}
+	.panel_text {
+	font-size:120%;
+	height: 100px;
+	line-height: 100px;
+}
   #content {
-    padding-top:80px;
+	margin-top: 10px;
+	padding-top:80px;
     width:100%;
   }
   .songlink {
