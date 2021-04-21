@@ -1,26 +1,26 @@
 @media (pointer: coarse) {
-	body {
-  background-image: linear-gradient(transparent, black 19%),url("btc_vid_mobile.png");
-	}
-  .about {
-	width:88%;
-	padding: 4%;
-	margin-bottom:100px;
-	}
-	.about h2 {
-	font-size: 24px !important;
-	}
-	.about p {
-		font-size: 24px !important;
-		line-height: 35px;
-		margin-bottom: 40px;
-	}
-  .release {
-    margin-bottom:650px;
-	font-size:27px !important;
-  }
-  footer {
-	  color:white !important;
-    font-size:16px !important;
-  }
+    body {
+        background-image: linear-gradient(transparent, black 19%), url("btc_vid_mobile.png");
+    }
+    .about {
+        width: 88%;
+        padding: 4%;
+        margin-bottom: 100px;
+    }
+    .about h2 {
+        font-size: 24px !important;
+    }
+    .about p {
+        font-size: 24px !important;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+    .release {
+        margin-bottom: 650px;
+        font-size: 27px !important;
+    }
+    footer {
+        color: #ccc !important;
+        font-size: 16px !important;
+    }
 }

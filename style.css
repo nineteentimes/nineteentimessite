@@ -1,197 +1,194 @@
 @font-face {
-  font-family:retro;
-  src:url(retroitalics.ttf);
+    font-family: retro;
+    src: url(retroitalics.ttf);
 }
 body {
-  color:white;
-  background-image: linear-gradient(transparent, black 45%),url("btc_vid.png");
-  background-repeat: no-repeat;
+    color: white;
+    background-image: linear-gradient(transparent, black 45%), url("btc_vid.png");
+    background-repeat: no-repeat;
 }
 #page {
-  margin-left:20%;
-  margin-right:20%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 h1 {
-  width:100%;
-  font-size:350%;
-  font-family:retro;
-  font-weight: normal;
+    width: 100%;
+    font-size: 350%;
+    font-family: retro;
+    font-weight: normal;
 }
 h2 {
-  text-transform:uppercase;
-  font-family:retro;
+    text-transform: uppercase;
+    font-family: retro;
 }
 h3 {
-  color: #ccc;
-  font-size:70%;
-  text-transform:uppercase;
-  font-family:retro;
+    color: #ccc;
+    font-size: 70%;
+    text-transform: uppercase;
+    font-family: retro;
 }
 p {
-  text-transform:uppercase;
-  font-family:retro;
+    text-transform: uppercase;
+    font-family: retro;
 }
 #header {
-  width:80%;
-  height:25%;
-  float:left;
-  margin-bottom:40px;
+    width: 80%;
+    height: 25%;
+    float: left;
+    margin-bottom: 40px;
 }
 .social_panel {
-	clear: both;
-	background-color: #191919;
-	width: 60%;
-	margin-left:19%;
-    margin-right:19%;
-	padding: 1%;
+    clear: both;
+    background-color: #191919;
+    width: 680px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.social_panel::after { 
-   content: " ";
-   display: block; 
-   height: 0; 
-   clear: both;
+.social_panel::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
 }
 .social_icon {
-  float: left;
-  margin-right: 32px;
+    float: left;
+    margin-right: 32px;
 }
 .panel_text {
-	width: 100px;
-  text-transform:uppercase;
-  font-family:retro;
-  float: left;
-	display: inline-block;
-	height: 50px;
-	line-height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    font-family: retro;
+    float: left;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
 }
 #content {
-  clear:both;
-  text-align:center;
-  padding-top:10px;
-   margin-top: 50px;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 50px;
 }
 .about {
-	text-align: left;
-	margin-bottom: 85px;
-	width:58%;
-	padding: 2%;
+    text-align: left;
+    margin-bottom: 85px;
+    width: 660px;
+    padding: 20px;
 }
 .about h2 {
-text-transform:none;
-font-weight:normal;
+    text-transform: none;
+    font-weight: normal;
 }
 .about p {
-	font-family: sans-serif;
-	font-size: 80%;
-	text-transform:none;
-	line-height:180%;
+    font-family: sans-serif;
+    font-size: 80%;
+    text-transform: none;
+    line-height: 180%;
 }
 .songlink {
-  display:inline-block;
-  width:700px;
-  height:199px;
+    display: inline-block;
+    width: 700px;
+    height: 199px;
 }
 .release {
-  margin-bottom:75px;
-  font-size:70% !important;
+    margin-bottom: 75px;
+    font-size: 70% !important;
 }
 .message {
-	background-color: #191919;
-	margin-bottom: 75px;
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    background-color: #191919;
+    margin-bottom: 75px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 footer {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:70%;
-  /*position:absolute;
-  bottom:10px;*/
-  width:99%;
-  text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    width: 99%;
+    text-align: center;
 }
 .arial {
-	font-family: Arial;
+    font-family: Arial;
 }
 a {
-	color: #B3A400;
+    color: #B3A400;
 }
-
 /* mobile only */
+
 @media (pointer: coarse) {
-	body {
-  background-image: linear-gradient(transparent, black 19%),url("btc_vid_mobile.png");
-	}
-  #page {
-	  margin-left:10px;
-	  margin-right:10px;
-	}
-  h3 {
-    font-size:130%;
-	line-height:150%;
-  }
-  a > img {
-    width:85px;
-    height:85px;
-    margin-left:0;
-  }
-  #header {
-    width:75%;
-  }
-  .social_panel {
-	width: 92%;
-	margin-left:2%;
-    margin-right:2%;
-  }
-  .about {
-	width:88%;
-	padding: 4%;
-	margin-bottom:100px;
-	}
-	.about p {
-		font-size: 12px;
-		line-height: 35px;
-		margin-bottom: 40px;
-	}
-  .social_icon {
-	  margin-right: 45px;
-	}
-	#social_icon_last {
-		margin-right: 0 !important;
-	}
-	.panel_text {
-	font-size:120%;
-	height: 100px;
-	line-height: 100px;
-}
-  #content {
-	margin-top: 10px;
-	padding-top:80px;
-    width:100%;
-  }
-  .songlink {
-    width:300px;
-    height:229px;
-    transform:translateY(300px) scale(3);
-  }
-  .message {
-	margin-bottom: 70px;
-	width: 93%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 1%
-	padding-right: 1%;
-	font-size:120% !important;
-  }
-  .release {
-    margin-bottom:650px;
-	font-size:8px !important;
-  }
-  footer {
-    font-size:10px;
-  }
+    body {
+        background-image: linear-gradient(transparent, black 19%), url("btc_vid_mobile.png");
+    }
+    #page {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h3 {
+        font-size: 130%;
+        line-height: 150%;
+    }
+    a>img {
+        width: 85px;
+        height: 85px;
+        margin-left: 0;
+    }
+    #header {
+        width: 75%;
+    }
+    .social_panel {
+        width: 92%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .about {
+        width: 88%;
+        padding: 4%;
+        margin-bottom: 100px;
+    }
+    .about p {
+        font-size: 12px;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+    .social_icon {
+        margin-right: 45px;
+    }
+    #social_icon_last {
+        margin-right: 0 !important;
+    }
+    .panel_text {
+        font-size: 120%;
+        height: 100px;
+        line-height: 100px;
+    }
+    #content {
+        margin-top: 10px;
+        padding-top: 80px;
+        width: 100%;
+    }
+    .songlink {
+        width: 300px;
+        height: 229px;
+        transform: translateY(300px) scale(3);
+    }
+    .message {
+        margin-bottom: 70px;
+        width: 93%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 1% padding-right: 1%;
+        font-size: 120% !important;
+    }
+    .release {
+        margin-bottom: 650px;
+        font-size: 8px !important;
+    }
+    footer {
+        font-size: 10px;
+    }
 }
