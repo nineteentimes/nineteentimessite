@@ -148,10 +148,11 @@ a {
   .about {
 	width:88%;
 	padding: 4%;
+	margin-bottom:100px;
 	}
 	.about p {
-		font-size: 70%;
-		line-height:400%;
+		font-size: 12px;
+		line-height: 35px;
 		margin-bottom: 40px;
 	}
   .social_icon {
@@ -188,9 +189,9 @@ a {
   }
   .release {
     margin-bottom:650px;
-	font-size:39% !important;
+	font-size:8px !important;
   }
   footer {
-    font-size:55%;
+    font-size:10px;
   }
 }
