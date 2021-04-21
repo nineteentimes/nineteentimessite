@@ -1,0 +1,23 @@
+@media (pointer: coarse) {
+	body {
+  background-image: linear-gradient(transparent, black 19%),url("btc_vid_mobile.png");
+	}
+  .about {
+	width:88%;
+	padding: 4%;
+	margin-bottom:100px;
+	}
+	.about p {
+		font-size: 12px;
+		line-height: 35px;
+		margin-bottom: 40px;
+	}
+  .release {
+    margin-bottom:650px;
+	font-size:100px !important;
+  }
+  footer {
+	  color:yellow !important;
+    font-size:1000px;
+  }
+}

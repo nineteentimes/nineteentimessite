@@ -73,5 +73,16 @@
 		</div>
 		<footer>&copy; <script>document.write(new Date().getFullYear())</script> Camden T</footer>
 	</div>
+	
+	<script>
+	var isInstagram = navigator.userAgent.match(/instagram/i);
+	if (isInstagram) {
+	  var head = document.querySelector('head');
+	  var link = document.createElement('link');
+	  link.rel = 'stylesheet';
+	  link.href = 'style-i.css';
+	  head.appendChild(link);
+	}
+	</script>
 	</body>
 </html>
