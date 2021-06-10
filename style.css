@@ -4,7 +4,7 @@
 }
 body {
     color: white;
-    background-image: linear-gradient(transparent, black 45%), url("btc_vid.png");
+    background-image: linear-gradient(transparent, black 900px), url("btc_vid.png");
     background-repeat: no-repeat;
 }
 #page {
@@ -151,7 +151,7 @@ a {
 
 @media (pointer: coarse) {
     body {
-        background-image: linear-gradient(transparent, black 19%), url("btc_vid_mobile.png");
+        background-image: linear-gradient(transparent, black 800px), url("btc_vid_mobile.png");
     }
     #page {
         margin-left: 10px;
